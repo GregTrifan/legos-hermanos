@@ -10,6 +10,28 @@ module.exports = {
 	},
 	plugins: [require("daisyui")],
 	daisyui: {
-		themes: ["luxury"],
+		themes: [
+			{
+				standard: {
+					primary: "#0891b2",
+
+					secondary: "#fb923c",
+
+					accent: "#0891b2",
+
+					neutral: "#202020",
+
+					"base-100": "#101010",
+
+					info: "#22d3ee",
+
+					success: "#3AD97F",
+
+					warning: "#facc15",
+
+					error: "#991b1b",
+				},
+			},
+		],
 	},
 };

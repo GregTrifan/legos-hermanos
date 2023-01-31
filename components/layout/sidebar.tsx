@@ -11,7 +11,7 @@ const Sidebar = ({ children }: { children: JSX.Element }) => {
             </div>
             <div className="drawer-side ">
                 <label htmlFor="sidebar" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 bg-base-100 text-base-content border-r-2 border-gray-400/10">
+                <ul className="menu p-4 w-80 bg-base-100 text-base-content border-r-2 border-slate-400/10">
                     <li><a>Sidebar Item 1</a></li>
                     <li><a>Sidebar Item 2</a></li>
                 </ul>

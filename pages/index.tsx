@@ -15,7 +15,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
-                <h1>Legos Hermanos</h1>
+                <h1 className="text-center my-4 text-6xl font-extrabold">Legos Hermanos</h1>
             </div>
         </>
     )
