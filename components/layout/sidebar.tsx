@@ -5,7 +5,7 @@ const Sidebar = ({ children }: { children: JSX.Element }) => {
     return (
         <div className="drawer drawer-mobile">
             <input id="sidebar" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content bg-base-50">
+            <div className="drawer-content bg-base-300">
                 <Navbar />
                 {children}
             </div>

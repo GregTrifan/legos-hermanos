@@ -1,13 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} \*/
 module.exports = {
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx}",
 		"./pages/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}",
 	],
-	theme: {
-		extend: {},
-	},
 	plugins: [require("daisyui")],
 	daisyui: {
 		themes: [
@@ -15,7 +12,7 @@ module.exports = {
 				standard: {
 					primary: "#0891b2",
 
-					secondary: "#fb923c",
+					secondary: "#0d9488",
 
 					accent: "#0891b2",
 
