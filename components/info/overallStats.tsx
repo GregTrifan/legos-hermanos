@@ -21,7 +21,7 @@ const OverallStats = () => {
                     <div className="stat-value text-secondary">1066</div>
                 </div>
             </div>
-            <div className="stats bg-base-100 stats-vertical xl:stats-horizontal m-2 w-10/12 max-w-96">
+            <div className="stats shadow-lg bg-base-100 stats-vertical xl:stats-horizontal m-2 w-10/12 max-w-96">
 
                 <div className="stat">
                     <div className="stat-figure text-primary">
