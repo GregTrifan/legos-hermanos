@@ -3,7 +3,7 @@ import { List } from 'phosphor-react'
 import Link from 'next/link'
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar border-b-2 border-gray-400/10">
             <label htmlFor="sidebar" className="btn btn-square btn-ghost drawer-button lg:hidden">
                 <List size={32} />
             </label>
