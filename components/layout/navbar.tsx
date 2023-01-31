@@ -8,7 +8,7 @@ const Navbar = () => {
                 <List size={32} />
             </label>
             <div className="flex-1">
-                <Link href="/" className="btn btn-ghost normal-case text-xl font-bold">Legos Hermanos</Link>
+                <Link href="/" className="btn btn-ghost normal-case text-xl font-bold headline text-yellow-400">Legos Hermanos</Link>
             </div>
         </div>
     )
