@@ -1,5 +1,13 @@
+const availableColors = ["red", "emerald", "orange","purple","lime","yellow","amber","blue","violet","indigo"];
+const colorSafeList = [];
+
+availableColors.forEach((shade)=> {
+    colorSafeList.push(`bg-${shade}-500/20`)
+    colorSafeList.push(`fill-${shade}-500/20`)
+})
 /** @type {import('tailwindcss').Config} \*/
 module.exports = {
+    safelist: colorSafeList,
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx}",
 		"./pages/**/*.{js,ts,jsx,tsx}",
